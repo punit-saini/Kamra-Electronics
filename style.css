@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Montserrat';
+    color: #515151;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #515151;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+
+/* Mobile Navbar */
+
+.toggle-button {
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fe844f;
+    border-radius: 10px;
+}
+
+/* Navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav-img img {
+    width: 200px;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fe834f88;
+    padding: 50px 0px;
+}
+
+body header .active {
+    display: flex;
+}
+
+.nav-links a {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+
+/* Cont1 */
+
+
+#cont1-img img {
+    width: 270px;
+}
+
+.cont {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cont1 #cont1-text {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#cont1-text a {
+    padding: 12px 24px;
+    background-color: #515151;
+    color: #fe844f;
+    border-radius: 24px;
+}
+
+#cont1-text a:hover {
+    background-color: #fe844f;
+    color: #515151;
+}
+
+#cont1-text a:hover #cont1-img {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: none;
+}
+
+
+#cont1-img img {
+    height: 280px;
+}
+
+/* cont2 and 3 */
+
+
+#cont2,
+#cont3 {
+    border-top: 2px solid black;
+}
+
+#cont2-img img,
+#cont3-img img {
+    width: 280px;
+}
+
+#cont2-text h2,
+#cont3-text h2 {
+    font-size: 2.5rem;
+}
+
+#cont2-text ul li,
+#cont3-text ul li {
+    color: #959595;
+    margin-bottom: 10px;
+    letter-spacing: .04rem;
+}
+
+#cont2-text p,
+#cont3-text p {
+    display: inline;
+    text-align: right;
+}
+
+#cont2 {
+    padding-bottom: 15px;
+
+}
+
+
+/* Cont 4 */
+
+#cont4 {
+    margin-top: 30px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+#cont4>h2 {
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+
+#cont4-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.box {
+    text-align: center;
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fe844f;
+    height: auto;
+    background-color: rgba(254, 131, 79, 0.363);
+}
+
+.box img {
+    width: 120px;
+    padding-top: 15px;
+}
+
+.box h2 {
+    font-weight: 600;
+    font-size: 5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* container 5 or all india delivery */
+
+#cont5 {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: linear-gradient(rgba(81, 81, 81, 0.02), rgba(81, 81, 81, .02)), url('./india\ 1india.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cont5 h4 {
+    background-color: rgba(255, 255, 255, 0.336);
+    font-size: 3rem;
+    color: #515151;
+    margin: none;
+}
+
+
+
+#cont5 h6 {
+    background-color: rgba(255, 255, 255, 0.336);
+    margin: none;
+    padding: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+
+/* Contact 6 */
+
+#cont6 {
+    width: 70%;
+    text-align: left;
+    border-bottom: 2px solid #fe844f;
+    padding-bottom: 12px;
+}
+
+#cont6 h3 {
+    margin-bottom: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#cont6 a {
+    padding: 12px 24px;
+    background-color: #515151;
+    color: #fe844f;
+    border-radius: 24px;
+    margin-top: 20px;
+    transition: .3s ease all;
+}
+
+#cont6 a:hover {
+    background-color: #fe844f;
+    color: #515151;
+}
+
+/* Footer */
+
+
+footer {
+    text-align: center;
+    border-top: 2px solid #fe844f;
+}
+
+footer img {
+    padding-top: 30px;
+    width: 200px;
+}
+
+
+/*------------------------------- Book Now */
+
+#book {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#caution {
+    margin-top: 40px;
+}
+
+/* Form */
+
+
+.source label,
+.destination label,
+.date label {
+    font-weight: 500;
+    color: #fe844f;
+}
+
+input,
+select {
+    width: 60%;
+    height: 2rem;
+    border-radius: 4px;
+    outline: none;
+    padding: 1px 5px;
+    color: #515151;
+    font-family: 'Montserrat';
+}
+
+#book form {
+    margin-top: 40px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+#book #date-input input {
+    width: 80%;
+}
+
+#book input {
+    margin-top: 10px;
+}
+
+#book button {
+    padding: 6px 12px;
+    background-color: #515151;
+    color: #fe844f;
+    border-radius: 24px;
+    margin-top: 20px;
+    transition: .3s ease all;
+    outline: none;
+    font-family: 'Montserrat';
+    margin-bottom: 30px;
+}
+
+#book button:hover,
+#contact button:hover {
+    background-color: none;
+}
+
+
+/* Contact */
+
+#contact>h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.name label,
+.related-to label,
+.describe label {
+    font-weight: 500;
+}
+
+#contact {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+textarea {
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    padding: 1px 5px;
+    color: #515151;
+    font-family: 'Montserrat';
+}
+
+#contact button {
+    margin-top: none;
+    text-align: center;
+    padding: 6px 12px;
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+    border-radius: 22px;
+    background-color: #515151;
+    color: #fe844f;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#contact button:hover {
+    background-color: none;
+}
+
+
+@media(min-width:780px) {
+
+
+    .cont {
+        margin: inherit auto;
+    }
+
+    #cont1 {
+        display: flex;
+        height: 80vh;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    #cont1-img img {
+        width: 500px;
+        height: auto;
+    }
+
+    #cont1-text {
+        margin-top: 50px;
+    }
+
+    /* cont2 */
+
+    main #cont2,
+    main #cont3 {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        height: 80vh;
+        margin: inherit auto;
+        padding: inherit 20px;
+    }
+
+    #cont2-img,
+    #cont3-img {
+        align-self: flex-end;
+    }
+
+    #cont2-img img,
+    #cont3-img img {
+        width: 400px;
+    }
+
+    #cont2-text {
+        margin-top: 50px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #cont3-text {
+        margin-top: 50px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #cont3-text {
+        order: 2;
+    }
+
+    #cont3-img {
+        order: 1;
+    }
+
+    #cont2-text ul li {
+        margin-bottom: 20px;
+    }
+
+    /* boxes */
+
+    #cont4-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box {
+        width: 30%;
+    }
+
+    /* footer 1 */
+
+    /* nAVBAR */
+
+    body header .toggle-button {
+        display: none;
+    }
+
+    body header .nav-links {
+        display: flex;
+        background-color: white;
+        margin-top: none;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .nav-links a {
+        margin-right: 18px;
+    }
+
+    .nav-img img {
+        margin-top: 50px;
+        width: 300;
+    }
+
+    header {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* header */
+
+    header .nav-img img {
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .nav-links {
+        margin-top: 50px;
+    }
+
+    .nav-links a {
+        font-size: 1.6rem;
+    }
+
+    /* cont1 */
+
+    #cont1-img img {
+        width: 770px;
+        align-self: flex-end;
+    }
+
+    #cont1-text {
+        width: 50%;
+        margin-top: 80px;
+    }
+
+    #cont1 #cont1-text {
+        font-size: 3rem;
+    }
+
+    /* cont2  */
+
+    #cont2-img img,
+    #cont3-img img {
+        width: 780px;
+    }
+
+    main #cont2,
+    main #cont3 {
+        justify-content: space-around;
+    }
+
+    #cont2-text h2,
+    #cont3-text h2 {
+        font-size: 4.5rem;
+    }
+
+    main #cont2-text h2,
+    main #cont3-text h2 {
+        margin-top: 100px;
+    }
+
+    main #cont2-text ul li,
+    main #cont3-text ul li {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    /* cont4 */
+
+    main #cont4>h2 {
+        font-size: 3rem;
+    }
+
+    /* cont5 */
+
+    #cont5 {
+        width: 70%;
+        height: 500px;
+    }
+
+    #cont5 h4 {
+        font-size: 3rem;
+    }
+
+    #cont5 h6 {
+        font-size: 2.3rem;
+    }
+
+    /* cont6 */
+
+    main #cont6 {
+        font-size: 2.9rem;
+    }
+
+    main #cont6 a {
+        font-size: 1.6rem;
+    }
+
+    /* footer */
+
+    footer img {
+        width: 350px;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    /* book now */
+
+    #book,
+    #contact {
+        text-align: center;
+    }
+
+    #caution {
+        font-size: 2rem;
+    }
+
+    input,
+    select {
+        height: 4rem;
+        font-size: 1.9rem;
+    }
+
+    label {
+        font-size: 3rem;
+        margin-right: 20px;
+    }
+
+    .source {
+        margin-top: 100px;
+    }
+
+    #book button,
+    #contact button {
+        font-size: 2.3rem;
+        padding: inherit 10px;
+    }
+
+    textarea {
+        margin: 30px auto;
+        display: block;
+        width: 50%;
+        font-size: 2rem;
+        padding: 10px;
+    }
+}
